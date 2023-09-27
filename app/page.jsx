@@ -5,6 +5,15 @@ export default function Home() {
   return (
     <>
       <h1 className="text-2xl mb-4 font-bold">💗 Welcome Jiwoo's Home 💗</h1>
+
+      <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
+        <h1 className="text-xl text-pink-700 font-bold">💌 prof. Jiwoo Nam</h1>
+        <div className="text-xl text-pink-700 font-bold"></div>
+        <br></br>
+        <p className="mb-2">중부대학교 2학년</p>
+        <p className="mb-2">학번 : 92212805</p>
+      </div>
+
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
         <Link
           href="https://www.clerk.com/"
