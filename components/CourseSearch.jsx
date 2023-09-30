@@ -7,7 +7,7 @@ const CourseSearch = ({ getSearchResults }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    // console.log(query)
+    //console.log(query)
 
     const res = await fetch(`/api/courses/search?query=${query}`)
     const courses = await res.json()
